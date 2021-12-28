@@ -1,0 +1,4435 @@
+/*************************** start of  smaller screen*******************/
+@media only screen and (max-width: 918px) {
+  body {
+    background-color: var(--main-body-color);
+  }
+
+  /*** MOBILE HEADER SECTION START ***/
+  .mobile-header-section {
+    width: 100%;
+    padding: 5px;
+    background-color: var(--main-background-color);
+  }
+
+  .mobile-header-section .title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    padding: 5px 15px;
+  }
+
+  .mobile-header-section .title .back-icon {
+    position: absolute;
+    left: 0px;
+    top: 15%;
+    color: white;
+    font-size: 25px;
+    margin-left: 5px;
+  }
+
+  /*** MOBILE HEADER SECTION END ***/
+  /*** DESKTOP NAV SECTION START***/
+  .desktop-nav-section {
+    display: none;
+  }
+  /*** DESKTOP NAV SECTION END ***/
+  /*** MOBILE NAV SECTION START***/
+  .mobile-nav-section {
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+
+    background-color: white;
+    box-shadow: 1px -1px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-flow: row nowrap;
+    z-index: 1000;
+  }
+
+  .mobile-nav-section .box {
+    width: 20%;
+    text-align: center;
+    color: #5c6675af;
+    padding: 8px;
+    display: block;
+    text-decoration: none;
+  }
+
+  .mobile-nav-section .box.active {
+    color: #12326b;
+    font-weight: bold;
+  }
+
+  .mobile-nav-section .box i {
+    display: block;
+    font-size: 21px;
+  }
+
+  .mobile-nav-section .box span {
+    display: block;
+    font-size: 13px;
+  }
+  /*** MOBILE NAV SECTION START***/
+  /*** BREADCRUMB START ***/
+  .breadcrumb {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: var(--main-background-color);
+    z-index: 100;
+    border-radius: 0px;
+  }
+  /*** BREADCRUMB END ***/
+
+  /*** HOME PAGE START ***/
+  .home-page {
+    position: relative;
+    width: 100%;
+  }
+
+  .home-page .top-section {
+    position: relative;
+    width: 100%;
+    background-color: var(--main-background-color);
+  }
+
+  .home-page .top-section .top-price {
+    position: relative;
+    width: 100%;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+  }
+  .home-page .top-section .question-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+  }
+
+  .home-page .top-section .exchange-rate {
+    position: relative;
+    width: 100%;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .home-page .top-section .percentage-increase {
+    position: relative;
+    width: 100%;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .home-page .top-section .chart-container {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: var(--main-background-color);
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .home-page .top-section .chart-container .chart-img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    opacity: 0;
+  }
+
+  .home-page .top-section .chart-container .chart {
+    background: linear-gradient(
+      to bottom,
+      var(--main-background-color),
+      rgba(0, 0, 0, 0.5)
+    );
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+  }
+
+  .home-page .blog-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 20px 20px;
+    margin-bottom: 100px;
+  }
+
+  .home-page .blog-container .blog-box {
+    width: 100%;
+    position: relative;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 7px;
+    margin-bottom: 20px;
+  }
+
+  .home-page .blog-container .blog-box .img-container {
+    position: relative;
+    width: 100%;
+    display: block;
+  }
+
+  .home-page .blog-container .blog-box .img-container img {
+    position: relative;
+    width: 100%;
+    max-height: 250px;
+    border-radius: 7px 7px 0px 0px;
+    object-fit: cover;
+  }
+
+  .home-page .blog-container .blog-box .title {
+    position: relative;
+    width: 100%;
+    padding: 5px 15px;
+    color: var(--main-background-color);
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .home-page .blog-container .blog-box .description {
+    position: relative;
+    width: 100%;
+    padding: 5px 15px;
+    color: var(--main-background-color);
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  /*** HOME PAGE END ***/
+
+  /*** WALLETS PAGE START ***/
+  .wallets-page {
+    position: relative;
+    width: 100%;
+  }
+
+  .wallets-page .top-section {
+    position: relative;
+    width: 100%;
+    background-color: var(--main-background-color);
+    padding-top: 20px;
+    /* padding-bottom: 10px; */
+  }
+
+  .wallets-page .top-section .question-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 20px;
+  }
+
+  .wallets-page .top-section .section-title {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+  }
+
+  .wallets-page .top-section .nairon-price {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .wallets-page .top-section .fiat-price {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+  }
+
+  .wallets-page .top-section .info {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    color: white;
+  }
+
+  .wallets-page .top-section .nav-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 25px;
+    background: linear-gradient(
+      to bottom,
+      var(--main-background-color),
+      rgba(0, 0, 0, 0.5)
+    );
+    padding-bottom: 10px;
+  }
+
+  .wallets-page .top-section .nav-container a {
+    text-decoration: none;
+    background-color: ;
+    margin-right: 15px;
+  }
+
+  .wallets-page .top-section .nav-container a .icon {
+    background-color: var(--main-btn-color);
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    display: flex;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wallets-page .top-section .nav-container a .text {
+    font-size: 14px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-color: ;
+  }
+
+  .wallets-page .wallets-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 10px;
+  }
+
+  .wallets-page .wallets-container .wallet-box {
+    position: relative;
+    width: 92%;
+    margin: auto;
+    margin-bottom: 15px;
+    display: block;
+    text-decoration: none;
+  }
+
+  .wallets-page .wallets-container .wallet-box .title {
+    color: grey;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px;
+  }
+
+  .wallets-page .wallets-container .wallet-box .body {
+    width: 100%;
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 6px;
+    transition: 0.5s ease;
+  }
+
+  .wallets-page .wallets-container .wallet-box .body:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .wallets-page .wallets-container .wallet-box .body .row1 {
+    width: 25%;
+    position: relative;
+    padding-left: 5px;
+  }
+
+  .wallets-page .wallets-container .wallet-box .body .row1 .logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+  }
+
+  .wallets-page .wallets-container .wallet-box .body .row2 {
+    width: 75%;
+    position: relative;
+  }
+
+  .wallets-page .wallets-container .wallet-box .body .row2 .wallet-amount {
+    font-weight: 600;
+    color: var(--main-background-color);
+    font-size: 14px;
+    display: block;
+  }
+
+  .wallets-page
+    .wallets-container
+    .wallet-box
+    .body
+    .row2
+    .local-currency-amount {
+    color: black;
+    font-size: 13px;
+    display: block;
+  }
+
+  .wallets-page .wallets-container .wallet-box .body .row2 .date {
+    color: grey;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+  }
+  .wallets-page .transactions-container {
+    position: relative;
+    width: 90%;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+
+  .wallets-page .transactions-container .no-transaction {
+    position: relative;
+    width: 100%;
+    padding: 20px 40px;
+  }
+
+  .wallets-page .transactions-container .no-transaction .image-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .wallets-page .transactions-container .no-transaction .image-container img {
+    width: 150px;
+    height: auto;
+  }
+
+  .wallets-page .transactions-container .no-transaction .message {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+  /*** WALLETS PAGE END ***/
+
+  /*** EXCHANGE PAGE START ***/
+  .exchange-page {
+    position: relative;
+    width: 100%;
+  }
+
+  .exchange-page .top-section {
+    position: relative;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .exchange-page .top-section .img-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    object-fit: cover;
+  }
+
+  .exchange-page .top-section .background-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 200;
+    background: linear-gradient(to top, black, rgba(0, 0, 0, 0.5));
+  }
+
+  .exchange-page .top-section .title {
+    position: relative;
+    width: 100%;
+    z-index: 300;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 0px 15px;
+  }
+
+  .exchange-page .top-section .subtitle {
+    position: relative;
+    width: 100%;
+    z-index: 300;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
+  }
+
+  .exchange-page .menu-container {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 0px 40px;
+  }
+
+  .exchange-page .menu-container .menu-btn {
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-right: 15px;
+  }
+
+  .exchange-page .menu-container .menu-btn.active {
+    border-bottom: 2px solid orange;
+    color: orange;
+  }
+
+  .exchange-page .search-wrapper {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .exchange-page .search-wrapper .search-section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white;
+    /* box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.2); */
+    padding: 10px 20px;
+  }
+
+  .exchange-page .search-wrapper .search-section .labels-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    display: none;
+  }
+  .exchange-page .search-wrapper .search-section .labels-container div {
+    width: 25%;
+    margin-right: 15px;
+    color: grey;
+    font-size: 14px;
+  }
+
+  .exchange-page .search-wrapper .search-section .fields-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    font-size: 15px;
+    background-color: ;
+  }
+  .exchange-page
+    .search-wrapper
+    .search-section
+    .fields-container
+    .price-field {
+    width: 100%;
+
+    border: 1px solid lightgrey;
+    background-color: white;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .exchange-page .search-wrapper .search-section .fields-container .fiat-field {
+    width: 100%;
+
+    border: none;
+    background-color: lightgrey;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .exchange-page
+    .search-wrapper
+    .search-section
+    .fields-container
+    .payment-field {
+    width: 100%;
+    border: none;
+    background-color: lightgrey;
+
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+  .exchange-page .search-wrapper .search-section .fields-container .search-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: var(--main-btn-color);
+    color: var(--main-background-color);
+    border-radius: 3px;
+  }
+
+  .exchange-page .ads-section {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    padding: 20px 5px;
+  }
+  .exchange-page .ads-section .labels-container {
+    position: relative;
+    width: 100%;
+    display: none;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #eee;
+  }
+
+  .exchange-page .ads-section .labels-container div {
+    width: 20%;
+    font-size: 14px;
+    color: grey;
+    padding-bottom: 10px;
+  }
+
+  .exchange-page .ads-section .ads-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid rgb(238, 233, 233);
+    padding: 20px 20px;
+  }
+
+  .exchange-page .ads-section .ads-container .row1 {
+    width: 100%;
+    position: relative;
+  }
+  .exchange-page .ads-section .ads-container .row1 .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: skyblue;
+    color: white;
+    display: inline-block;
+  }
+
+  .exchange-page .ads-section .ads-container .row1 .name {
+    font-weight: 600;
+    font-size: 16px;
+    display: inline-block;
+  }
+  .exchange-page .ads-section .ads-container .row1 .details {
+    font-size: 12px;
+    display: block;
+    color: grey;
+  }
+  .exchange-page .ads-section .ads-container .row2 {
+    width: 100%;
+    position: relative;
+  }
+
+  .exchange-page .ads-section .ads-container .row2 .price {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .exchange-page .ads-section .ads-container .row2 sub {
+    font-size: 13px;
+  }
+  .exchange-page .ads-section .ads-container .row3 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .exchange-page .ads-section .ads-container .row3 .available {
+    display: block;
+    color: grey;
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  .exchange-page .ads-section .ads-container .row3 .available .amount {
+    font-weight: normal;
+    color: black;
+  }
+  .exchange-page .ads-section .ads-container .row4 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .exchange-page .ads-section .ads-container .row4 button {
+    padding: 7px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(250, 248, 248);
+    color: orange;
+    font-size: 12px;
+  }
+  .exchange-page .ads-section .ads-container .row5 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .exchange-page .ads-section .ads-container .row5 button {
+    padding: 7px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(65, 214, 132);
+    color: white;
+    font-size: 14px;
+  }
+
+  .exchange-page .ads-section .ads-container .row5 button.buy {
+    /* background-color: rgb(65, 214, 132); */
+    background-color: rgb(252, 189, 72);
+    color: var(--main-background-color);
+  }
+  .exchange-page .ads-section .ads-container .row5 button.sell {
+    background-color: crimson;
+  }
+
+  .exchange-page .trade-modal-background {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1500;
+    cursor: pointer;
+    display: none;
+  }
+  .exchange-page .trade-modal {
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    /* height: 500px; */
+    max-height: 500px;
+    min-height: 500px;
+    background-color: white;
+    z-index: 1600;
+    border-radius: 10px;
+    overflow-y: auto;
+    display: none;
+  }
+
+  .exchange-page .trade-modal .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: lightgrey;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 150;
+  }
+
+  .exchange-page .trade-modal .loader-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+  }
+
+  .exchange-page .trade-modal .loader-container .loader {
+    width: 50px;
+    height: 50px;
+  }
+
+  .exchange-page .trade-modal .section-title {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .exchange-page .trade-modal .trader-details {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 5px 20px;
+  }
+
+  .exchange-page .trade-modal .trader-details .row1 {
+    width: 20%;
+    position: relative;
+    background-color: ;
+  }
+  .exchange-page .trade-modal .trader-details .row1 .letter-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+  }
+
+  .exchange-page .trade-modal .trader-details .row2 {
+    width: 80%;
+    position: relative;
+  }
+
+  .exchange-page .trade-modal .trader-details .row2 .username {
+    color: royalblue;
+    font-weight: 600;
+    display: block;
+    font-size: 17px;
+  }
+
+  .exchange-page .trade-modal .trader-details .row2 .orders {
+    color: grey;
+    font-size: 13px;
+  }
+
+  .exchange-page .trade-modal .trader-details .row2 .completion {
+    color: grey;
+    font-size: 13px;
+  }
+
+  .exchange-page .trade-modal .price-details {
+    position: relative;
+    width: 100%;
+    padding: 5px 20px;
+    margin-top: 10px;
+  }
+  .exchange-page .trade-modal .price-details .price {
+    display: block;
+    font-size: 14px;
+    color: rgb(153, 148, 148);
+  }
+
+  .exchange-page .trade-modal .price-details .price .value {
+    color: mediumseagreen;
+  }
+
+  .exchange-page .trade-modal .price-details .available {
+    display: block;
+    font-size: 14px;
+    color: rgb(153, 148, 148);
+  }
+
+  .exchange-page .trade-modal .price-details .available .value {
+    color: var(--main-background-color);
+  }
+
+  .exchange-page .trade-modal .form-container {
+    position: relative;
+    width: 100%;
+    padding: 5px 20px;
+    margin-top: 15px;
+  }
+
+  .exchange-page .trade-modal .form-container label {
+    font-size: 14px;
+    color: rgb(177, 165, 165);
+    display: block;
+  }
+
+  .exchange-page .trade-modal .form-container .field-container {
+    position: relative;
+    width: 100%;
+  }
+  .exchange-page .trade-modal .form-container .error {
+    font-size: 11px;
+    color: red;
+    width: 100%;
+    position: relative;
+    display: block;
+    top: -10px;
+  }
+  .exchange-page .trade-modal .form-container .field-container .field {
+    position: relative;
+    width: 100%;
+    padding: 7px;
+    border: 1px solid rgb(228, 225, 225);
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .exchange-page .trade-modal .form-container .field-container .currency {
+    position: absolute;
+    color: grey;
+    font-size: 14px;
+    right: 8px;
+    top: 7px;
+    cursor: pointer;
+  }
+
+  .exchange-page .trade-modal .form-container .field-container .all {
+    position: absolute;
+    color: var(--main-btn-color);
+    font-size: 14px;
+    right: 48px;
+    top: 7px;
+    cursor: pointer;
+  }
+
+  .exchange-page .trade-modal .form-container .submit-btn-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .exchange-page
+    .trade-modal
+    .form-container
+    .submit-btn-container
+    .submit-btn {
+    position: relative;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--main-btn-color);
+    color: var(--main-background-color);
+  }
+
+  .exchange-page .trade-modal .form-container .trade-option {
+    position: relative;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .exchange-page .trade-modal .form-container .trade-option .label {
+    position: relative;
+    font-size: 13px;
+    color: grey;
+  }
+  .exchange-page .trade-modal .form-container .trade-option .value {
+    position: relative;
+    font-size: 13px;
+    float: right;
+    color: var(--main-background-color);
+  }
+  /*** EXCHANGE PAGE END ***/
+
+  /*** RECEIVE PAGE START ***/
+  .receive-page {
+    position: relative;
+    width: 100%;
+  }
+
+  .receive-page .scan-container {
+    position: relative;
+    width: 90%;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    /* height: 400px; */
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+  }
+
+  .receive-page .scan-container .section-title {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--main-background-color);
+    padding-top: 20px;
+  }
+
+  .receive-page .scan-container .qrcode-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .receive-page .scan-container .qrcode-container #qrcode {
+    position: relative;
+  }
+
+  .receive-page .scan-container .nairon-address-title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    color: var(--main-btn-color);
+    margin-top: 10px;
+  }
+
+  .receive-page .scan-container .nairon-address {
+    position: relative;
+    margin: auto;
+    max-width: 90%;
+    overflow-x: auto;
+    text-align: center;
+    font-size: 16px;
+    color: var(--main-background-color);
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 5px 10px;
+  }
+
+  .receive-page .scan-container .form-container {
+    position: relative;
+    width: 100%;
+  }
+
+  .receive-page .scan-container .form-container form {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px 10px;
+    margin-top: 10px;
+  }
+
+  .receive-page .scan-container .form-container form .field-container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 10px;
+  }
+
+  .receive-page
+    .scan-container
+    .form-container
+    form
+    .field-container
+    .currency-fieldset {
+    width: 20%;
+    border: 1px solid lightgrey;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+  .receive-page
+    .scan-container
+    .form-container
+    form
+    .field-container
+    .currency-fieldset
+    legend {
+    font-size: 12px;
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .receive-page
+    .scan-container
+    .form-container
+    form
+    .field-container
+    .currency-fieldset
+    select {
+    border: none;
+    cursor: pointer;
+    color: grey;
+    font-size: 14px;
+  }
+  .receive-page
+    .scan-container
+    .form-container
+    form
+    .field-container
+    .amount-fieldset {
+    width: 80%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+  }
+
+  .receive-page
+    .scan-container
+    .form-container
+    form
+    .field-container
+    .amount-fieldset.active {
+    border: 2px solid var(--main-btn-color);
+  }
+  .receive-page
+    .scan-container
+    .form-container
+    form
+    .field-container
+    .amount-fieldset
+    legend {
+    font-size: 12px;
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .receive-page
+    .scan-container
+    .form-container
+    form
+    .field-container
+    .amount-fieldset
+    legend.active {
+    color: var(--main-btn-color);
+  }
+  .receive-page
+    .scan-container
+    .form-container
+    form
+    .field-container
+    .amount-fieldset
+    input {
+    border: none;
+    padding: 5px;
+    width: 100%;
+  }
+
+  .receive-page .scan-container .form-container form .btn-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .receive-page
+    .scan-container
+    .form-container
+    form
+    .btn-container
+    .submit-btn {
+    position: relative;
+    width: 80%;
+    padding: 10px;
+    background-color: var(--main-btn-color);
+    color: var(--main-color);
+    border: none;
+    border-radius: 50px;
+  }
+  /*** RECEIVE PAGE END ***/
+
+  /*** SEND PAGE START ***/
+  .send-page {
+    position: relative;
+    width: 100%;
+  }
+
+  .send-page .qrcode-scanner-section {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  .send-page .qrcode-scanner-section .back-btn {
+    font-size: 17px;
+    color: white;
+    position: absolute;
+    z-index: 500;
+    top: 10px;
+    left: 10px;
+  }
+
+  .send-page .qrcode-scanner-section .qrcode-video-container {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    overflow-x: hidden;
+  }
+  .send-page .qrcode-scanner-section .qrcode-video {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: 100%;
+    background-color: lightgrey;
+    z-index: 100;
+  }
+
+  .send-page .qrcode-scanner-section .target-container {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: ;
+    z-index: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .send-page .qrcode-scanner-section .target-container .target-box {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+  }
+
+  .send-page .qrcode-scanner-section .target-container .target-box .top-left {
+    position: absolute;
+    top: 0px;
+    left: -3px;
+    width: 6px;
+    height: 30px;
+    background-color: mediumseagreen;
+  }
+  .send-page
+    .qrcode-scanner-section
+    .target-container
+    .target-box
+    .top-left-top {
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 30px;
+    height: 6px;
+    background-color: mediumseagreen;
+  }
+
+  .send-page
+    .qrcode-scanner-section
+    .target-container
+    .target-box
+    .bottom-left {
+    position: absolute;
+    bottom: 0px;
+    left: -3px;
+    width: 6px;
+    height: 30px;
+    background-color: mediumseagreen;
+  }
+
+  .send-page
+    .qrcode-scanner-section
+    .target-container
+    .target-box
+    .bottom-left-bottom {
+    position: absolute;
+    bottom: -3px;
+    left: -3px;
+    width: 30px;
+    height: 6px;
+    background-color: mediumseagreen;
+  }
+  .send-page .qrcode-scanner-section .target-container .target-box .top-right {
+    position: absolute;
+    top: 0px;
+    right: -3px;
+    width: 6px;
+    height: 30px;
+    background-color: mediumseagreen;
+  }
+  .send-page
+    .qrcode-scanner-section
+    .target-container
+    .target-box
+    .top-right-top {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    width: 30px;
+    height: 6px;
+    background-color: mediumseagreen;
+  }
+
+  .send-page
+    .qrcode-scanner-section
+    .target-container
+    .target-box
+    .bottom-right {
+    position: absolute;
+    bottom: 0px;
+    right: -3px;
+    width: 6px;
+    height: 30px;
+    background-color: mediumseagreen;
+  }
+
+  .send-page
+    .qrcode-scanner-section
+    .target-container
+    .target-box
+    .bottom-right-bottom {
+    position: absolute;
+    bottom: -3px;
+    right: -3px;
+    width: 30px;
+    height: 6px;
+    background-color: mediumseagreen;
+  }
+
+  .send-page .qrcode-scanner-section .target-container .mover {
+    width: 100%;
+    height: 10px;
+    background-color: mediumseagreen;
+    filter: blur(5px);
+    position: relative;
+    top: 50%;
+    animation: animate_mover 4s ease infinite;
+  }
+
+  @keyframes animate_mover {
+    0% {
+      top: 0%;
+    }
+
+    50% {
+      top: 100%;
+    }
+    100% {
+      top: 0%;
+    }
+  }
+
+  .send-page .qrcode-scanner-section .info-container {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: ;
+    z-index: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .send-page .qrcode-scanner-section .info-container .info-box {
+    width: 230px;
+    padding: 10px 20px;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+    font-size: 14px;
+    border-radius: 1px;
+  }
+
+  .send-page .qrcode-scanner-section .info-container .info-box .triangle {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    background-color: white;
+    bottom: -20px;
+    left: 20px;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%, 0% 0%);
+  }
+
+  .send-page .qrcode-scanner-section .select-camera-container {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: ;
+    z-index: 400;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+  }
+
+  .send-page
+    .qrcode-scanner-section
+    .select-camera-container
+    .select-container {
+    position: absolute;
+    left: 0px;
+    bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .send-page
+    .qrcode-scanner-section
+    .select-camera-container
+    .select-container
+    select {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: grey;
+    font-size: 13px;
+    border: none;
+  }
+
+  .send-page .choose-method-section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 20px;
+  }
+
+  .send-page .choose-method-section .box {
+    position: relative;
+    width: 80%;
+    padding: 10px 15px;
+    background-color: white;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    margin-bottom: 15px;
+    color: inherit;
+    text-align: center;
+    color: var(--main-background-color);
+  }
+
+  .send-page .choose-method-section .box .angle-right {
+    float: right;
+  }
+
+  .send-page .send-via-wallet-address-section {
+    position: relative;
+    width: 100%;
+    padding: 5px 10px;
+  }
+
+  .send-page .send-via-wallet-address-section form .wallet-address-fieldset {
+    border: 1px solid lightgrey;
+    width: 100%;
+    border-radius: 3px;
+  }
+
+  .send-page
+    .send-via-wallet-address-section
+    form
+    .wallet-address-fieldset
+    legend {
+    width: auto;
+    font-size: 12px;
+    padding-right: 3px;
+    color: grey;
+  }
+
+  .send-page
+    .send-via-wallet-address-section
+    form
+    .wallet-address-fieldset
+    .field {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    font-size: 14px;
+  }
+
+  .send-page .send-via-wallet-address-section form .submit-btn-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .send-page
+    .send-via-wallet-address-section
+    form
+    .submit-btn-container
+    .submit-btn {
+    position: relative;
+    padding: 10px 30px;
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--main-btn-color);
+    color: white;
+  }
+
+  .send-page .send-via-wallet-address-screenshot-section {
+    position: relative;
+    width: 100%;
+  }
+
+  .send-page
+    .send-via-wallet-address-screenshot-section
+    form
+    .upload-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .send-page
+    .send-via-wallet-address-screenshot-section
+    form
+    .upload-container
+    .upload-box {
+    width: 150px;
+    height: 150px;
+    background-color: #eee;
+    border: 1px dotted lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .send-page
+    .send-via-wallet-address-screenshot-section
+    form
+    .upload-container
+    .upload-box
+    .info {
+    font-size: 13px;
+    color: var(--main-btn-color);
+  }
+  /*** SEND PAGE END ***/
+
+  /*** VIEW TRADE PAGE START ***/
+  .view-trade-page {
+    position: relative;
+    width: 100%;
+  }
+
+  .view-trade-page .trade-container {
+    position: relative;
+    width: 95%;
+    background-color: white;
+    margin: auto;
+    margin-top: 15px;
+    min-height: 400px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 100px;
+  }
+
+  .view-trade-page .trade-container .section-title {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--main-background-color);
+    padding-top: 20px;
+  }
+
+  .view-trade-page .trade-container .section-title .status {
+    font-size: 14px;
+    font-weight: normal;
+    color: mediumseagreen;
+    background-color: rgba(60, 179, 114, 0.432);
+    padding: 5px 10px;
+    border-radius: 2px;
+  }
+
+  .view-trade-page .trade-container .timeline-container {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 30px;
+  }
+
+  .view-trade-page .trade-container .timeline-container .line {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: var(--main-btn-color);
+    top: 15px;
+    z-index: 100;
+  }
+
+  .view-trade-page .trade-container .timeline-container .box {
+    width: 25%;
+    z-index: 200;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .view-trade-page .trade-container .timeline-container .box .row1 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .view-trade-page .trade-container .timeline-container .box .row1 .number {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid var(--main-btn-color);
+    color: var(--main-btn-color);
+    font-size: 14px;
+    background-color: white;
+  }
+
+  .view-trade-page
+    .trade-container
+    .timeline-container
+    .box
+    .row1
+    .number.active {
+    background-color: var(--main-btn-color);
+    color: white;
+  }
+
+  .view-trade-page .trade-container .timeline-container .box .row2 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    color: grey;
+  }
+
+  .view-trade-page .trade-container .trade-image-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .view-trade-page .trade-container .trade-image-container .trade-image {
+    width: 150px;
+    height: auto;
+  }
+
+  .view-trade-page .trade-container .message {
+    position: relative;
+    width: 100%;
+    padding: 5px 10px;
+    color: var(--main-background-color);
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .view-trade-page .trade-container .action-btn-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .view-trade-page .trade-container .action-btn-container .action-btn {
+    position: relative;
+    width: 200px;
+    padding: 7px;
+    border: 1px solid var(--main-btn-color);
+    color: var(--main-btn-color);
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: white;
+  }
+
+  .view-trade-page .trade-container .action-btn-container .action-btn.confirm {
+    background-color: var(--main-btn-color);
+    color: white;
+  }
+
+  .view-trade-page .trade-container .action-btn-container .action-btn.report {
+    background-color: white;
+    color: rgba(220, 20, 60, 0.507);
+
+    border: 1px solid rgba(220, 20, 60, 0.514);
+  }
+  /*** VIEW TRADE PAGE ***/
+
+  /*** PROFILE PAGE START ***/
+  .profile-page {
+    position: relative;
+    width: 100%;
+  }
+
+  .profile-page .hero {
+    position: relative;
+    width: 100%;
+    padding: 40px 20px;
+    background-color: var(--main-background-color);
+  }
+
+  .profile-page .hero .name {
+    position: relative;
+    width: 100%;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .profile-page .nav-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
+
+  .profile-page .nav-container .nav-box {
+    width: 90%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    color: inherit;
+    text-decoration: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .profile-page .nav-container .nav-box .row1 {
+    width: 25%;
+    position: relative;
+  }
+
+  .profile-page .nav-container .nav-box .row1 button {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    background-color: var(--main-background-color);
+    color: white;
+    font-size: 20px;
+    border: none;
+  }
+
+  .profile-page .nav-container .nav-box .row2 {
+    width: 75%;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .profile-page .nav-container .nav-box .row2 .label {
+    color: var(--main-background-color);
+    font-weight: 600;
+    font-size: 17px;
+  }
+  /*** PROFILE PAGE END ***/
+
+  /*** MY TRADES PAGE START ***/
+  .my-trades-page {
+    position: relative;
+    width: 100%;
+  }
+
+  .my-trades-page .hero {
+    position: relative;
+    width: 100%;
+    padding: 40px 20px;
+    background-color: var(--main-background-color);
+  }
+
+  .my-trades-page .hero .section-title {
+    position: relative;
+    width: 100%;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .my-trades-page .trade-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .my-trades-page .trade-container .trade-box {
+    width: 90%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px 15px;
+    display: flex;
+    flex-flow: row wrap;
+    color: inherit;
+    margin-bottom: 20px;
+  }
+
+  .my-trades-page .trade-container .trade-box .trade-id {
+    position: relative;
+    width: 100%;
+    font-size: 14px;
+    color: var(--main-background-color);
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .my-trades-page .trade-container .trade-box .trade-id .status {
+    position: relative;
+    padding: 3px 10px;
+    font-size: 13px;
+    font-weight: normal;
+    border: none;
+  }
+
+  .my-trades-page .trade-container .trade-box .trade-id .status.ongoing {
+    color: rgb(252, 189, 72);
+    background-color: rgba(252, 189, 72, 0.466);
+  }
+
+  .my-trades-page .trade-container .trade-box .trade-id .status.completed {
+    color: mediumseagreen;
+    background-color: rgba(60, 179, 114, 0.486);
+  }
+
+  .my-trades-page .trade-container .trade-box .trade-id .status.cancelled {
+    color: grey;
+    background-color: rgba(128, 128, 128, 0.466);
+  }
+
+  .my-trades-page .trade-container .trade-box .row1 {
+    width: 15%;
+    position: relative;
+  }
+
+  .my-trades-page .trade-container .trade-box .row1 .letter-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    font-size: 13px;
+  }
+
+  .my-trades-page .trade-container .trade-box .row2 {
+    width: 85%;
+    position: relative;
+  }
+
+  .my-trades-page .trade-container .trade-box .row2 .trader-name {
+    font-size: 14px;
+    display: block;
+    color: var(--main-background-color);
+  }
+
+  .my-trades-page .trade-container .trade-box .row2 .order-type {
+    font-size: 14px;
+    display: block;
+  }
+
+  .my-trades-page .trade-container .trade-box .row2 .order-type.sell {
+    color: red;
+  }
+  .my-trades-page .trade-container .trade-box .row2 .order-type.buy {
+    color: mediumseagreen;
+  }
+
+  .my-trades-page .trade-container .trade-box .row2 .time {
+    font-size: 14px;
+    display: block;
+    color: grey;
+  }
+
+  .my-trades-page .trade-container .trade-box .row2 .view-btn {
+    padding: 5px 10px;
+    background-color: var(--main-btn-color);
+    color: var(--main-background-color);
+    border-radius: 4px;
+    display: block;
+    width: 70px;
+    float: right;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  /*** MY TRADES PAGE END ***/
+
+  /*** WALLET PAGE START ***/
+  .wallet-page {
+    position: relative;
+    width: 100%;
+    background-color: white;
+  }
+
+  .wallet-page .top-section {
+    position: relative;
+    width: 100%;
+    background-color: var(--main-btn-color);
+    padding: 10px 10px;
+  }
+
+  .wallet-page .top-section .section-title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+  }
+
+  .wallet-page .top-section .section-title .back-btn {
+    float: left;
+    color: white;
+    font-size: 20px;
+  }
+  .wallet-page .top-section .available {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    opacity: 0.5;
+  }
+
+  .wallet-page .top-section .amount {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+  }
+  .wallet-page .top-section .fiat-value {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    opacity: 0.5;
+  }
+
+  .wallet-page .no-transactions-container {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    padding: 20px 40px;
+    margin-bottom: 50px;
+  }
+
+  .wallet-page .no-transactions-container .image-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .wallet-page .no-transactions-container .image-container img {
+    width: 130px;
+    height: auto;
+  }
+
+  .wallet-page .no-transactions-container .title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    color: var(--main-background-color);
+    font-weight: 600;
+    padding: 7px;
+  }
+
+  .wallet-page .no-transactions-container .message {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+    padding: 7px;
+    margin-bottom: 10px;
+  }
+
+  .wallet-page .no-transactions-container .section-btn-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .wallet-page .no-transactions-container .section-btn-container .section-btn {
+    width: 80%;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(252, 189, 72, 0.37);
+    color: rgb(252, 189, 72);
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .wallet-page .transactions-container {
+    position: relative;
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .wallet-page .transactions-container .box {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 5px 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .wallet-page .transactions-container .box:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .wallet-page .transactions-container .box .row1 {
+    position: relative;
+    width: 15%;
+  }
+
+  .wallet-page .transactions-container .box .row1 .logo-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+  }
+
+  .wallet-page .transactions-container .box .row2 {
+    position: relative;
+    width: 85%;
+  }
+
+  .wallet-page .transactions-container .box .row2 .transaction-title {
+    position: relative;
+    display: block;
+    font-size: 12px;
+    color: black;
+    font-weight: 600;
+  }
+
+  .wallet-page .transactions-container .box .row2 .time {
+    position: relative;
+    display: block;
+    font-size: 13px;
+    color: grey;
+  }
+
+  .wallet-page .transactions-container .box .row2 .amount {
+    display: block;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .wallet-page .transactions-container .box .row2 .amount.success {
+    color: mediumseagreen;
+  }
+  .wallet-page .transactions-container .box .row2 .amount.failed {
+    color: red;
+  }
+
+  .wallet-page .transactions-container .box .row2 .amount.pending {
+    color: rgb(252, 189, 72);
+  }
+  .wallet-page .transactions-container .box .row2 .status {
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+    font-size: 13px;
+  }
+
+  .wallet-page .transactions-container .box .row2 .status.success {
+    color: mediumseagreen;
+  }
+
+  .wallet-page .transactions-container .box .row2 .status.failed {
+    color: red;
+  }
+
+  .wallet-page .transactions-container .box .row2 .status.pending {
+    color: rgb(252, 189, 72);
+  }
+  /*** WALLET PAGE END ***/
+
+  /*** TRANSACTION STATUS PAGE START ***/
+  .transaction-status-page {
+    position: relative;
+    width: 100%;
+  }
+
+  .transaction-status-page .transaction-container {
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .transaction-status-page .transaction-container .icon-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .transaction-status-page .transaction-container .icon-container button {
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    background-color: rgba(60, 179, 114, 0.144);
+    border: none;
+  }
+
+  .transaction-status-page
+    .transaction-container
+    .icon-container
+    button.failed {
+    background-color: rgba(220, 20, 60, 0.137);
+  }
+  .transaction-status-page .transaction-container .icon-container button i {
+    font-size: 45px;
+    color: mediumseagreen;
+  }
+
+  .transaction-status-page
+    .transaction-container
+    .icon-container
+    button
+    i.failed {
+    color: crimson;
+  }
+
+  .transaction-status-page .transaction-container .title {
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .transaction-status-page .transaction-container .message {
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    color: grey;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .transaction-status-page .transaction-container .section-btn-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .transaction-status-page
+    .transaction-container
+    .section-btn-container
+    .section-btn {
+    width: 80%;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(60, 179, 114, 0.432);
+    color: mediumseagreen;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .transaction-status-page
+    .transaction-container
+    .section-btn-container
+    .section-btn.failed {
+    background-color: rgba(220, 20, 60, 0.39);
+    color: crimson;
+  }
+
+  /*** TRANSACTION STATUS PAGE END ***/
+}
+
+/** ********************end of smaller screen********************** **/
+/********/
+/********/
+/********/
+/********/
+/********/
+/********/
+/********/
+/** *******************start of bigger screen************************/
+@media only screen and (min-width: 918px) {
+  body {
+    background-color: var(--main-body-color);
+  }
+
+  /*** MOBILE NAV SECTION START***/
+  .mobile-nav-section {
+    display: none;
+  }
+
+  /*** MOBILE NAV SECTION END ***/
+
+  /*** DESKTOP NAV SECTION START***/
+  .desktop-nav-section {
+    width: 100%;
+    height: 70px;
+    background-color: var(--main-background-color);
+    z-index: 1000;
+  }
+
+  .desktop-nav-section.is-showing {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  .desktop-nav-section .logo-text {
+    position: relative;
+    font-size: 30px;
+    color: white;
+    top: 10px;
+    margin-left: 100px;
+    text-decoration: none;
+  }
+
+  .desktop-nav-section ul {
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    margin-right: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+    padding-left: 20px;
+  }
+
+  .desktop-nav-section ul li {
+    display: inline-block;
+    color: white;
+    margin-right: 20px;
+    font-size: 15px;
+  }
+
+  .desktop-nav-section ul li a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  /*** DESKTOP NAV SECTION END ***/
+
+  /*** BREADCRUMB START ***/
+  .breadcrumb {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+
+    background-color: var(--main-background-color);
+    z-index: 100;
+    border-radius: 0px;
+  }
+  /*** BREADCRUMB END ***/
+
+  /*** HOME PAGE START ***/
+
+  .home-page {
+    position: relative;
+    width: 100%;
+  }
+
+  .home-page .top-section {
+    position: relative;
+    width: 100%;
+    background-color: var(--main-background-color);
+  }
+
+  .home-page .top-section .top-price {
+    position: relative;
+    width: 100%;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+  }
+  .home-page .top-section .question-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+  }
+
+  .home-page .top-section .exchange-rate {
+    position: relative;
+    width: 100%;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .home-page .top-section .percentage-increase {
+    position: relative;
+    width: 100%;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .home-page .top-section .chart-container {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    height: 200px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .home-page .top-section .chart-container .chart-line {
+    display: none;
+  }
+  .home-page .top-section .chart-container .chart-img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    opacity: 0;
+  }
+
+  .home-page .top-section .chart-container .chart {
+    background: linear-gradient(
+      to bottom,
+      var(--main-background-color),
+      rgba(0, 0, 0, 0.5)
+    );
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+  }
+
+  .home-page .blog-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 20px 20px;
+    margin-bottom: 100px;
+  }
+
+  .home-page .blog-container .blog-box {
+    width: 30%;
+    position: relative;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+  }
+
+  .home-page .blog-container .blog-box .img-container {
+    position: relative;
+    width: 100%;
+    display: block;
+  }
+
+  .home-page .blog-container .blog-box .img-container img {
+    position: relative;
+    width: 100%;
+    max-height: 250px;
+    border-radius: 7px 7px 0px 0px;
+    object-fit: cover;
+  }
+
+  .home-page .blog-container .blog-box .title {
+    position: relative;
+    width: 100%;
+    padding: 5px 15px;
+    color: var(--main-background-color);
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .home-page .blog-container .blog-box .description {
+    position: relative;
+    width: 100%;
+    padding: 5px 15px;
+    color: var(--main-background-color);
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  /*** HOME PAGE END ***/
+
+  /*** WALLETS PAGE START ***/
+  .wallets-page {
+    position: relative;
+    width: 100%;
+  }
+
+  .wallets-page .top-section {
+    position: relative;
+    width: 100%;
+    background-color: var(--main-background-color);
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .wallets-page .top-section .question-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+
+  .wallets-page .top-section .section-title {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+  }
+
+  .wallets-page .top-section .nairon-price {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .wallets-page .top-section .fiat-price {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+  }
+
+  .wallets-page .top-section .info {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    color: white;
+  }
+
+  .wallets-page .top-section .nav-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  .wallets-page .top-section .nav-container a {
+    text-decoration: none;
+    background-color: ;
+    margin-right: 25px;
+  }
+
+  .wallets-page .top-section .nav-container a .icon {
+    background-color: var(--main-btn-color);
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    display: flex;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wallets-page .top-section .nav-container a .text {
+    font-size: 14px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-color: ;
+  }
+
+  .wallets-page .wallets-container {
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .wallets-page .wallets-container .wallet-box {
+    position: relative;
+    width: 45%;
+    margin: auto;
+    margin-bottom: 15px;
+    display: block;
+    text-decoration: none;
+  }
+
+  .wallets-page .wallets-container .wallet-box .title {
+    color: grey;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px;
+  }
+
+  .wallets-page .wallets-container .wallet-box .body {
+    width: 100%;
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 6px;
+    transition: 0.5s ease;
+  }
+
+  .wallets-page .wallets-container .wallet-box .body:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .wallets-page .wallets-container .wallet-box .body .row1 {
+    width: 25%;
+    position: relative;
+    padding-left: 5px;
+  }
+
+  .wallets-page .wallets-container .wallet-box .body .row1 .logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+  }
+
+  .wallets-page .wallets-container .wallet-box .body .row2 {
+    width: 75%;
+    position: relative;
+  }
+
+  .wallets-page .wallets-container .wallet-box .body .row2 .wallet-amount {
+    font-weight: 600;
+    color: var(--main-background-color);
+    font-size: 14px;
+    display: block;
+  }
+
+  .wallets-page
+    .wallets-container
+    .wallet-box
+    .body
+    .row2
+    .local-currency-amount {
+    color: black;
+    font-size: 13px;
+    display: block;
+  }
+
+  .wallets-page .wallets-container .wallet-box .body .row2 .date {
+    color: grey;
+    font-size: 12px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+  }
+
+  .wallets-page .transactions-container {
+    position: relative;
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+
+  .wallets-page .transactions-container .no-transaction {
+    position: relative;
+    width: 100%;
+    padding: 40px 40px;
+  }
+
+  .wallets-page .transactions-container .no-transaction .image-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .wallets-page .transactions-container .no-transaction .image-container img {
+    width: 200px;
+    height: auto;
+  }
+
+  .wallets-page .transactions-container .no-transaction .message {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+  /*** WALLETS PAGE END ***/
+
+  /*** EXCHANGE PAGE START ***/
+  .exchange-page {
+    position: relative;
+    width: 100%;
+  }
+
+  .exchange-page .top-section {
+    position: relative;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .exchange-page .top-section .img-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    object-fit: cover;
+  }
+
+  .exchange-page .top-section .background-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 200;
+    background: linear-gradient(to top, black, rgba(0, 0, 0, 0.5));
+  }
+
+  .exchange-page .top-section .title {
+    position: relative;
+    width: 100%;
+    z-index: 300;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  .exchange-page .top-section .subtitle {
+    position: relative;
+    width: 100%;
+    z-index: 300;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
+  }
+
+  .exchange-page .menu-container {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 0px 40px;
+  }
+
+  .exchange-page .menu-container .menu-btn {
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-right: 15px;
+  }
+
+  .exchange-page .menu-container .menu-btn.active {
+    border-bottom: 2px solid orange;
+    color: orange;
+  }
+
+  .exchange-page .search-wrapper {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .exchange-page .search-wrapper .search-section {
+    position: relative;
+    width: 800px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white;
+    /* box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.2); */
+    padding: 10px 100px;
+  }
+
+  .exchange-page .search-wrapper .search-section .labels-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .exchange-page .search-wrapper .search-section .labels-container div {
+    width: 25%;
+    margin-right: 15px;
+    color: grey;
+    font-size: 14px;
+  }
+
+  .exchange-page .search-wrapper .search-section .fields-container {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    font-size: 15px;
+  }
+  .exchange-page
+    .search-wrapper
+    .search-section
+    .fields-container
+    .price-field {
+    width: 25%;
+    margin-right: 15px;
+    border: 1px solid lightgrey;
+    background-color: white;
+    border-radius: 3px;
+    padding: 7px;
+    font-size: 13px;
+  }
+  .exchange-page .search-wrapper .search-section .fields-container .fiat-field {
+    width: 25%;
+    margin-right: 15px;
+    border: none;
+    background-color: lightgrey;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .exchange-page
+    .search-wrapper
+    .search-section
+    .fields-container
+    .payment-field {
+    width: 25%;
+    border: none;
+    background-color: lightgrey;
+    margin-right: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .exchange-page .search-wrapper .search-section .fields-container .search-btn {
+    width: 25%;
+    padding: 5px;
+    border: none;
+    background-color: var(--main-btn-color);
+    color: var(--main-background-color);
+    border-radius: 3px;
+  }
+
+  .exchange-page .ads-section {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    padding: 30px 100px;
+  }
+  .exchange-page .ads-section .labels-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    border-bottom: 1px solid #eee;
+  }
+
+  .exchange-page .ads-section .labels-container div {
+    width: 20%;
+    font-size: 14px;
+    color: grey;
+    padding-bottom: 10px;
+  }
+
+  .exchange-page .ads-section .ads-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    border-bottom: 1px solid rgb(250, 248, 248);
+    padding: 20px 0px;
+  }
+
+  .exchange-page .ads-section .ads-container .row1 {
+    width: 20%;
+    position: relative;
+    padding: 10px;
+  }
+  .exchange-page .ads-section .ads-container .row1 .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: skyblue;
+    color: white;
+    display: inline-block;
+  }
+
+  .exchange-page .ads-section .ads-container .row1 .name {
+    font-weight: 600;
+    font-size: 16px;
+    display: inline-block;
+  }
+  .exchange-page .ads-section .ads-container .row1 .details {
+    font-size: 12px;
+    display: block;
+    color: grey;
+  }
+  .exchange-page .ads-section .ads-container .row2 {
+    width: 20%;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .exchange-page .ads-section .ads-container .row2 .price {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .exchange-page .ads-section .ads-container .row2 sub {
+    font-size: 13px;
+  }
+  .exchange-page .ads-section .ads-container .row3 {
+    width: 20%;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .exchange-page .ads-section .ads-container .row3 .available {
+    display: block;
+    color: grey;
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  .exchange-page .ads-section .ads-container .row3 .available .amount {
+    font-weight: normal;
+    color: black;
+  }
+  .exchange-page .ads-section .ads-container .row4 {
+    width: 20%;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .exchange-page .ads-section .ads-container .row4 button {
+    padding: 7px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(250, 248, 248);
+    color: orange;
+    font-size: 12px;
+  }
+  .exchange-page .ads-section .ads-container .row5 {
+    width: 20%;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .exchange-page .ads-section .ads-container .row5 button {
+    padding: 7px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(65, 214, 132);
+    color: white;
+    font-size: 14px;
+  }
+
+  .exchange-page .ads-section .ads-container .row5 button.buy {
+    /* background-color: rgb(65, 214, 132); */
+    background-color: rgb(252, 189, 72);
+    color: var(--main-background-color);
+  }
+  .exchange-page .ads-section .ads-container .row5 button.sell {
+    background-color: crimson;
+  }
+
+  .exchange-page .trade-modal-background {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1500;
+    cursor: pointer;
+    display: none;
+  }
+  .exchange-page .trade-modal {
+    position: fixed;
+    top: 5%;
+    left: 33%;
+    width: 450px;
+    /* height: 500px; */
+    max-height: 500px;
+    min-height: 500px;
+    background-color: white;
+    z-index: 1600;
+    border-radius: 10px;
+    overflow-y: auto;
+    display: none;
+  }
+
+  .exchange-page .trade-modal .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: lightgrey;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 150;
+  }
+
+  .exchange-page .trade-modal .loader-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+  }
+
+  .exchange-page .trade-modal .loader-container .loader {
+    width: 50px;
+    height: 50px;
+  }
+
+  .exchange-page .trade-modal .section-title {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .exchange-page .trade-modal .trader-details {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 5px 20px;
+  }
+
+  .exchange-page .trade-modal .trader-details .row1 {
+    width: 10%;
+    position: relative;
+    background-color: ;
+  }
+  .exchange-page .trade-modal .trader-details .row1 .letter-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+  }
+
+  .exchange-page .trade-modal .trader-details .row2 {
+    width: 90%;
+    position: relative;
+  }
+
+  .exchange-page .trade-modal .trader-details .row2 .username {
+    color: royalblue;
+    font-weight: 600;
+    display: block;
+    font-size: 17px;
+  }
+
+  .exchange-page .trade-modal .trader-details .row2 .orders {
+    color: grey;
+    font-size: 13px;
+  }
+
+  .exchange-page .trade-modal .trader-details .row2 .completion {
+    color: grey;
+    font-size: 13px;
+  }
+
+  .exchange-page .trade-modal .price-details {
+    position: relative;
+    width: 100%;
+    padding: 5px 20px;
+    margin-top: 10px;
+  }
+  .exchange-page .trade-modal .price-details .price {
+    display: block;
+    font-size: 14px;
+    color: rgb(153, 148, 148);
+  }
+
+  .exchange-page .trade-modal .price-details .price .value {
+    color: mediumseagreen;
+  }
+
+  .exchange-page .trade-modal .price-details .available {
+    display: block;
+    font-size: 14px;
+    color: rgb(153, 148, 148);
+  }
+
+  .exchange-page .trade-modal .price-details .available .value {
+    color: var(--main-background-color);
+  }
+
+  .exchange-page .trade-modal .form-container {
+    position: relative;
+    width: 100%;
+    padding: 5px 20px;
+    margin-top: 15px;
+  }
+
+  .exchange-page .trade-modal .form-container label {
+    font-size: 14px;
+    color: rgb(177, 165, 165);
+    display: block;
+  }
+
+  .exchange-page .trade-modal .form-container .field-container {
+    position: relative;
+    width: 100%;
+  }
+  .exchange-page .trade-modal .form-container .error {
+    font-size: 11px;
+    color: red;
+    width: 100%;
+    position: relative;
+    display: block;
+    top: -10px;
+  }
+  .exchange-page .trade-modal .form-container .field-container .field {
+    position: relative;
+    width: 100%;
+    padding: 7px;
+    border: 1px solid rgb(228, 225, 225);
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .exchange-page .trade-modal .form-container .field-container .currency {
+    position: absolute;
+    color: grey;
+    font-size: 14px;
+    right: 8px;
+    top: 7px;
+    cursor: pointer;
+  }
+
+  .exchange-page .trade-modal .form-container .field-container .all {
+    position: absolute;
+    color: var(--main-btn-color);
+    font-size: 14px;
+    right: 48px;
+    top: 7px;
+    cursor: pointer;
+  }
+
+  .exchange-page .trade-modal .form-container .submit-btn-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .exchange-page
+    .trade-modal
+    .form-container
+    .submit-btn-container
+    .submit-btn {
+    position: relative;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--main-btn-color);
+    color: var(--main-background-color);
+  }
+
+  .exchange-page .trade-modal .form-container .trade-option {
+    position: relative;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .exchange-page .trade-modal .form-container .trade-option .label {
+    position: relative;
+    font-size: 13px;
+    color: grey;
+  }
+  .exchange-page .trade-modal .form-container .trade-option .value {
+    position: relative;
+    font-size: 13px;
+    float: right;
+    color: var(--main-background-color);
+  }
+  /*** EXCHANGE PAGE END ***/
+
+  /*** RECEIVE PAGE START ***/
+  .receive-page {
+    position: relative;
+    width: 100%;
+  }
+
+  .receive-page .scan-container {
+    position: relative;
+    width: 450px;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    padding: 5px 5px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .receive-page .scan-container .section-title {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--main-background-color);
+    padding-top: 20px;
+  }
+
+  .receive-page .scan-container .qrcode-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .receive-page .scan-container .qrcode-container #qrcode {
+    position: relative;
+  }
+
+  .receive-page .scan-container .nairon-address-title {
+    position: re;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    color: var(--main-btn-color);
+    margin-top: 10px;
+  }
+
+  .receive-page .scan-container .nairon-address {
+    position: re;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: var(--main-background-color);
+    font-weight: bold;
+    margin-top: 5px;
+  }
+
+  .receive-page .scan-container .form-container {
+    position: relative;
+    width: 100%;
+  }
+
+  .receive-page .scan-container .form-container form {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px 30px;
+    margin-top: 10px;
+  }
+
+  .receive-page .scan-container .form-container form .field-container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 10px;
+  }
+
+  .receive-page
+    .scan-container
+    .form-container
+    form
+    .field-container
+    .currency-fieldset {
+    width: 20%;
+    border: 1px solid lightgrey;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+  .receive-page
+    .scan-container
+    .form-container
+    form
+    .field-container
+    .currency-fieldset
+    legend {
+    font-size: 12px;
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .receive-page
+    .scan-container
+    .form-container
+    form
+    .field-container
+    .currency-fieldset
+    select {
+    border: none;
+    cursor: pointer;
+    color: grey;
+    font-size: 14px;
+  }
+  .receive-page
+    .scan-container
+    .form-container
+    form
+    .field-container
+    .amount-fieldset {
+    width: 80%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+  }
+
+  .receive-page
+    .scan-container
+    .form-container
+    form
+    .field-container
+    .amount-fieldset.active {
+    border: 2px solid var(--main-btn-color);
+  }
+  .receive-page
+    .scan-container
+    .form-container
+    form
+    .field-container
+    .amount-fieldset
+    legend {
+    font-size: 12px;
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .receive-page
+    .scan-container
+    .form-container
+    form
+    .field-container
+    .amount-fieldset
+    legend.active {
+    color: var(--main-btn-color);
+  }
+  .receive-page
+    .scan-container
+    .form-container
+    form
+    .field-container
+    .amount-fieldset
+    input {
+    border: none;
+    padding: 5px;
+    width: 100%;
+  }
+
+  .receive-page .scan-container .form-container form .btn-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .receive-page
+    .scan-container
+    .form-container
+    form
+    .btn-container
+    .submit-btn {
+    position: relative;
+    width: 80%;
+    padding: 10px;
+    background-color: var(--main-btn-color);
+    color: var(--main-color);
+    border: none;
+    border-radius: 50px;
+  }
+  /*** RECEIVE PAGE END ***/
+
+  /*** SEND PAGE START ***/
+  .send-page {
+    position: relative;
+    width: 100%;
+  }
+
+  .send-page .qrcode-scanner-section {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  .send-page .qrcode-scanner-section .back-btn {
+    font-size: 17px;
+    color: white;
+    position: absolute;
+    z-index: 500;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+  }
+
+  .send-page .qrcode-scanner-section .qrcode-video-container {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    overflow-x: hidden;
+  }
+  .send-page .qrcode-scanner-section .qrcode-video {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: 100%;
+    background-color: lightgrey;
+    z-index: 100;
+  }
+
+  .send-page .qrcode-scanner-section .target-container {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: ;
+    z-index: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .send-page .qrcode-scanner-section .target-container .target-box {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+  }
+
+  .send-page .qrcode-scanner-section .target-container .target-box .top-left {
+    position: absolute;
+    top: 0px;
+    left: -3px;
+    width: 6px;
+    height: 30px;
+    background-color: mediumseagreen;
+  }
+  .send-page
+    .qrcode-scanner-section
+    .target-container
+    .target-box
+    .top-left-top {
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 30px;
+    height: 6px;
+    background-color: mediumseagreen;
+  }
+
+  .send-page
+    .qrcode-scanner-section
+    .target-container
+    .target-box
+    .bottom-left {
+    position: absolute;
+    bottom: 0px;
+    left: -3px;
+    width: 6px;
+    height: 30px;
+    background-color: mediumseagreen;
+  }
+
+  .send-page
+    .qrcode-scanner-section
+    .target-container
+    .target-box
+    .bottom-left-bottom {
+    position: absolute;
+    bottom: -3px;
+    left: -3px;
+    width: 30px;
+    height: 6px;
+    background-color: mediumseagreen;
+  }
+  .send-page .qrcode-scanner-section .target-container .target-box .top-right {
+    position: absolute;
+    top: 0px;
+    right: -3px;
+    width: 6px;
+    height: 30px;
+    background-color: mediumseagreen;
+  }
+  .send-page
+    .qrcode-scanner-section
+    .target-container
+    .target-box
+    .top-right-top {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    width: 30px;
+    height: 6px;
+    background-color: mediumseagreen;
+  }
+
+  .send-page
+    .qrcode-scanner-section
+    .target-container
+    .target-box
+    .bottom-right {
+    position: absolute;
+    bottom: 0px;
+    right: -3px;
+    width: 6px;
+    height: 30px;
+    background-color: mediumseagreen;
+  }
+
+  .send-page
+    .qrcode-scanner-section
+    .target-container
+    .target-box
+    .bottom-right-bottom {
+    position: absolute;
+    bottom: -3px;
+    right: -3px;
+    width: 30px;
+    height: 6px;
+    background-color: mediumseagreen;
+  }
+
+  .send-page .qrcode-scanner-section .target-container .mover {
+    width: 100%;
+    height: 10px;
+    background-color: mediumseagreen;
+    filter: blur(5px);
+    position: relative;
+    top: 50%;
+    animation: animate_mover 4s ease infinite;
+  }
+
+  @keyframes animate_mover {
+    0% {
+      top: 0%;
+    }
+
+    50% {
+      top: 100%;
+    }
+    100% {
+      top: 0%;
+    }
+  }
+
+  .send-page .qrcode-scanner-section .info-container {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: ;
+    z-index: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .send-page .qrcode-scanner-section .info-container .info-box {
+    width: 230px;
+    padding: 10px 20px;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+    font-size: 14px;
+    border-radius: 1px;
+  }
+
+  .send-page .qrcode-scanner-section .info-container .info-box .triangle {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    background-color: white;
+    bottom: -20px;
+    left: 20px;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%, 0% 0%);
+  }
+
+  .send-page .qrcode-scanner-section .select-camera-container {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: ;
+    z-index: 400;
+    display: flex;
+    /* justify-content: center;
+      align-items: center; */
+  }
+
+  .send-page
+    .qrcode-scanner-section
+    .select-camera-container
+    .select-container {
+    position: absolute;
+    left: 0px;
+    bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .send-page
+    .qrcode-scanner-section
+    .select-camera-container
+    .select-container
+    select {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: grey;
+    font-size: 13px;
+    border: none;
+  }
+
+  .send-page .choose-method-section {
+    position: relative;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 20px;
+  }
+
+  .send-page .choose-method-section .box {
+    position: relative;
+    width: 90%;
+    padding: 10px 15px;
+    background-color: white;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    margin-bottom: 15px;
+    color: inherit;
+    text-align: center;
+    color: var(--main-background-color);
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .send-page .choose-method-section .box:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .send-page .choose-method-section .box .angle-right {
+    float: right;
+  }
+
+  .send-page .send-via-wallet-address-section {
+    position: relative;
+    width: 100%;
+    padding: 5px 60px;
+  }
+
+  .send-page .send-via-wallet-address-section form .wallet-address-fieldset {
+    border: 1px solid lightgrey;
+    width: 100%;
+    border-radius: 3px;
+  }
+
+  .send-page
+    .send-via-wallet-address-section
+    form
+    .wallet-address-fieldset
+    legend {
+    width: auto;
+    font-size: 12px;
+    padding-right: 3px;
+    color: grey;
+  }
+
+  .send-page
+    .send-via-wallet-address-section
+    form
+    .wallet-address-fieldset
+    .field {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    font-size: 14px;
+  }
+
+  .send-page .send-via-wallet-address-section form .submit-btn-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .send-page
+    .send-via-wallet-address-section
+    form
+    .submit-btn-container
+    .submit-btn {
+    position: relative;
+    padding: 10px 30px;
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--main-btn-color);
+    color: white;
+  }
+
+  .send-page .send-via-wallet-address-screenshot-section {
+    position: relative;
+    width: 100%;
+  }
+
+  .send-page
+    .send-via-wallet-address-screenshot-section
+    form
+    .upload-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .send-page
+    .send-via-wallet-address-screenshot-section
+    form
+    .upload-container
+    .upload-box {
+    width: 150px;
+    height: 150px;
+    background-color: #eee;
+    border: 1px dotted lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .send-page
+    .send-via-wallet-address-screenshot-section
+    form
+    .upload-container
+    .upload-box
+    .info {
+    font-size: 13px;
+    color: var(--main-btn-color);
+  }
+  /*** SEND PAGE END ***/
+
+  /*** VIEW TRADE PAGE START ***/
+  .view-trade-page {
+    position: relative;
+    width: 100%;
+  }
+
+  .view-trade-page .trade-container {
+    position: relative;
+    width: 450px;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    min-height: 400px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .view-trade-page .trade-container .section-title {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--main-background-color);
+    padding-top: 20px;
+  }
+
+  .view-trade-page .trade-container .section-title .status {
+    font-size: 14px;
+    font-weight: normal;
+    color: mediumseagreen;
+    background-color: rgba(60, 179, 114, 0.432);
+    padding: 5px 10px;
+    border-radius: 2px;
+  }
+
+  .view-trade-page .trade-container .timeline-container {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 30px;
+  }
+
+  .view-trade-page .trade-container .timeline-container .line {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: var(--main-btn-color);
+    top: 15px;
+    z-index: 100;
+  }
+
+  .view-trade-page .trade-container .timeline-container .box {
+    width: 25%;
+    z-index: 200;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .view-trade-page .trade-container .timeline-container .box .row1 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .view-trade-page .trade-container .timeline-container .box .row1 .number {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid var(--main-btn-color);
+    color: var(--main-btn-color);
+    font-size: 14px;
+    background-color: white;
+  }
+
+  .view-trade-page
+    .trade-container
+    .timeline-container
+    .box
+    .row1
+    .number.active {
+    background-color: var(--main-btn-color);
+    color: white;
+  }
+
+  .view-trade-page .trade-container .timeline-container .box .row2 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    color: grey;
+  }
+
+  .view-trade-page .trade-container .trade-image-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .view-trade-page .trade-container .trade-image-container .trade-image {
+    width: 150px;
+    height: auto;
+  }
+
+  .view-trade-page .trade-container .message {
+    position: relative;
+    width: 100%;
+    padding: 5px 10px;
+    color: var(--main-background-color);
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .view-trade-page .trade-container .action-btn-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .view-trade-page .trade-container .action-btn-container .action-btn {
+    position: relative;
+    width: 200px;
+    padding: 7px;
+    border: 1px solid var(--main-btn-color);
+    color: var(--main-btn-color);
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: white;
+  }
+
+  .view-trade-page .trade-container .action-btn-container .action-btn.confirm {
+    background-color: var(--main-btn-color);
+    color: white;
+  }
+
+  .view-trade-page .trade-container .action-btn-container .action-btn.report {
+    background-color: white;
+    color: rgba(220, 20, 60, 0.507);
+
+    border: 1px solid rgba(220, 20, 60, 0.514);
+  }
+  /*** VIEW TRADE PAGE ***/
+
+  /*** PROFILE PAGE START ***/
+  .profile-page {
+    position: relative;
+    width: 100%;
+  }
+
+  .profile-page .hero {
+    position: relative;
+    width: 100%;
+    padding: 40px 20px;
+    background-color: var(--main-background-color);
+  }
+
+  .profile-page .hero .name {
+    position: relative;
+    width: 100%;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .profile-page .nav-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .profile-page .nav-container .nav-box {
+    width: 230px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    color: inherit;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .profile-page .nav-container .nav-box .row1 {
+    width: 30%;
+    position: relative;
+  }
+
+  .profile-page .nav-container .nav-box .row1 button {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    background-color: var(--main-background-color);
+    color: white;
+    font-size: 20px;
+    border: none;
+  }
+
+  .profile-page .nav-container .nav-box .row2 {
+    width: 70%;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .profile-page .nav-container .nav-box .row2 .label {
+    color: var(--main-background-color);
+    font-weight: 600;
+    font-size: 17px;
+  }
+  /*** PROFILE PAGE END ***/
+
+  /*** MY TRADES PAGE START ***/
+  .my-trades-page {
+    position: relative;
+    width: 100%;
+  }
+
+  .my-trades-page .hero {
+    position: relative;
+    width: 100%;
+    padding: 40px 20px;
+    background-color: var(--main-background-color);
+  }
+
+  .my-trades-page .hero .section-title {
+    position: relative;
+    width: 100%;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .my-trades-page .trade-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .my-trades-page .trade-container .trade-box {
+    width: 230px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px 15px;
+    display: flex;
+    flex-flow: row wrap;
+    color: inherit;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+
+  .my-trades-page .trade-container .trade-box .trade-id {
+    position: relative;
+    width: 100%;
+    font-size: 14px;
+    color: var(--main-background-color);
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .my-trades-page .trade-container .trade-box .trade-id .status {
+    position: relative;
+    padding: 3px 10px;
+    font-size: 13px;
+    font-weight: normal;
+    border: none;
+  }
+
+  .my-trades-page .trade-container .trade-box .trade-id .status.ongoing {
+    color: rgb(252, 189, 72);
+    background-color: rgba(252, 189, 72, 0.466);
+  }
+
+  .my-trades-page .trade-container .trade-box .trade-id .status.completed {
+    color: mediumseagreen;
+    background-color: rgba(60, 179, 114, 0.486);
+  }
+
+  .my-trades-page .trade-container .trade-box .trade-id .status.cancelled {
+    color: grey;
+    background-color: rgba(128, 128, 128, 0.466);
+  }
+
+  .my-trades-page .trade-container .trade-box .row1 {
+    width: 15%;
+    position: relative;
+  }
+
+  .my-trades-page .trade-container .trade-box .row1 .letter-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    font-size: 13px;
+  }
+
+  .my-trades-page .trade-container .trade-box .row2 {
+    width: 85%;
+    position: relative;
+  }
+
+  .my-trades-page .trade-container .trade-box .row2 .trader-name {
+    font-size: 14px;
+    display: block;
+    color: var(--main-background-color);
+  }
+
+  .my-trades-page .trade-container .trade-box .row2 .order-type {
+    font-size: 14px;
+    display: block;
+  }
+
+  .my-trades-page .trade-container .trade-box .row2 .order-type.sell {
+    color: red;
+  }
+  .my-trades-page .trade-container .trade-box .row2 .order-type.buy {
+    color: mediumseagreen;
+  }
+
+  .my-trades-page .trade-container .trade-box .row2 .time {
+    font-size: 14px;
+    display: block;
+    color: grey;
+  }
+
+  .my-trades-page .trade-container .trade-box .row2 .view-btn {
+    padding: 5px 10px;
+    background-color: var(--main-btn-color);
+    color: var(--main-background-color);
+    border-radius: 4px;
+    display: block;
+    width: 70px;
+    float: right;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  /*** MY TRADES PAGE END ***/
+
+  /*** WALLET PAGE START ***/
+  .wallet-page {
+    position: relative;
+    width: 100%;
+    background-color: white;
+  }
+
+  .wallet-page .top-section {
+    position: relative;
+    width: 100%;
+    background-color: var(--main-btn-color);
+    padding: 10px 10px;
+  }
+
+  .wallet-page .top-section .section-title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+  }
+
+  .wallet-page .top-section .section-title .back-btn {
+    float: left;
+    color: white;
+    font-size: 20px;
+  }
+  .wallet-page .top-section .available {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    opacity: 0.5;
+  }
+
+  .wallet-page .top-section .amount {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+  }
+  .wallet-page .top-section .fiat-value {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    opacity: 0.5;
+  }
+
+  .wallet-page .no-transactions-container {
+    position: relative;
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 20px 40px;
+    margin-bottom: 50px;
+  }
+
+  .wallet-page .no-transactions-container .image-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .wallet-page .no-transactions-container .image-container img {
+    width: 130px;
+    height: auto;
+  }
+
+  .wallet-page .no-transactions-container .title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    color: var(--main-background-color);
+    font-weight: 600;
+    padding: 7px;
+  }
+
+  .wallet-page .no-transactions-container .message {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+    padding: 7px;
+    margin-bottom: 10px;
+  }
+
+  .wallet-page .no-transactions-container .section-btn-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .wallet-page .no-transactions-container .section-btn-container .section-btn {
+    width: 80%;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(252, 189, 72, 0.37);
+    color: rgb(252, 189, 72);
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .wallet-page .transactions-container {
+    position: relative;
+    width: 500px;
+    margin: auto;
+    padding: 10px 10px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .wallet-page .transactions-container .box {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 5px 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid #f2f2f2;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .wallet-page .transactions-container .box:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .wallet-page .transactions-container .box .row1 {
+    position: relative;
+    width: 10%;
+  }
+
+  .wallet-page .transactions-container .box .row1 .logo-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+  }
+
+  .wallet-page .transactions-container .box .row2 {
+    position: relative;
+    width: 90%;
+  }
+
+  .wallet-page .transactions-container .box .row2 .transaction-title {
+    position: relative;
+    display: block;
+    font-size: 12px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .wallet-page .transactions-container .box .row2 .time {
+    position: relative;
+    display: block;
+    font-size: 13px;
+    color: grey;
+  }
+
+  .wallet-page .transactions-container .box .row2 .amount {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .wallet-page .transactions-container .box .row2 .amount.success {
+    color: mediumseagreen;
+  }
+  .wallet-page .transactions-container .box .row2 .amount.failed {
+    color: red;
+  }
+
+  .wallet-page .transactions-container .box .row2 .amount.pending {
+    color: rgb(252, 189, 72);
+  }
+  .wallet-page .transactions-container .box .row2 .status {
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+    font-size: 13px;
+  }
+
+  .wallet-page .transactions-container .box .row2 .status.success {
+    color: mediumseagreen;
+  }
+
+  .wallet-page .transactions-container .box .row2 .status.failed {
+    color: red;
+  }
+
+  .wallet-page .transactions-container .box .row2 .status.pending {
+    color: rgb(252, 189, 72);
+  }
+  /*** WALLET PAGE END ***/
+
+  /*** TRANSACTION STATUS PAGE START ***/
+  .transaction-status-page {
+    position: relative;
+    width: 100%;
+  }
+
+  .transaction-status-page .transaction-container {
+    position: relative;
+    width: 350px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1), -1px -1px 2px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    border-radius: 5px;
+  }
+
+  .transaction-status-page .transaction-container .icon-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .transaction-status-page .transaction-container .icon-container button {
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    background-color: rgba(60, 179, 114, 0.144);
+    border: none;
+    text-decoration: none;
+  }
+
+  .transaction-status-page
+    .transaction-container
+    .icon-container
+    button.failed {
+    background-color: rgba(220, 20, 60, 0.137);
+  }
+  .transaction-status-page .transaction-container .icon-container button i {
+    font-size: 45px;
+    color: mediumseagreen;
+  }
+
+  .transaction-status-page
+    .transaction-container
+    .icon-container
+    button
+    i.failed {
+    color: crimson;
+  }
+
+  .transaction-status-page .transaction-container .title {
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .transaction-status-page .transaction-container .message {
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    color: grey;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .transaction-status-page .transaction-container .section-btn-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .transaction-status-page
+    .transaction-container
+    .section-btn-container
+    .section-btn {
+    width: 80%;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(60, 179, 114, 0.432);
+    color: mediumseagreen;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .transaction-status-page
+    .transaction-container
+    .section-btn-container
+    .section-btn.failed {
+    background-color: rgba(220, 20, 60, 0.39);
+    color: crimson;
+  }
+
+  /*** TRANSACTION STATUS PAGE END ***/
+}
+
+/** **************end of bigger screen************************ **/
+.centered-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+button,
+input,
+textarea {
+  outline: none !important;
+}

@@ -1,0 +1,230 @@
+:root {
+  /* --main-background-color: #12326b; */
+  /* --main-background-color: #052747; */
+  /* --main-background-color: rgb(30, 8, 46); */
+  --main-background-color: #0a183d;
+  --main-color: rgb(30, 8, 46);
+  /* --main-btn-color: #ec1c24; */
+  /* --main-btn-color: #0091ff; */
+  --main-btn-color: rgb(252, 189, 72);
+  --main-body-color: #f2f2f2;
+  --main-red-color: #ef476f;
+}
+/*************************** start of  smaller screen*******************/
+@media only screen and (max-width: 918px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+
+  /*** FIXED NOTIFICATION START ***/
+  .fixed-notification {
+    position: fixed;
+    top: 5%;
+    right: 30px;
+    /* width: 200px; */
+    padding: 10px 30px 10px 15px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    z-index: 2000;
+  }
+
+  .fixed-notification .check-icon {
+    font-size: 19px;
+    color: mediumseagreen;
+  }
+
+  .fixed-notification .message {
+    font-size: 15px;
+    color: var(--main-background-color);
+  }
+  /*** FIXED NOTIFICATION END **/
+
+  /*** BOTTOM SLIDER MODAL START ***/
+
+  .bottom-slider-modal-background {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1500;
+    display: none;
+  }
+  .bottom-slider-modal {
+    position: fixed;
+    bottom: -300px;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    z-index: 1600;
+    border-radius: 10px 10px 0px 0px;
+    overflow-y: auto;
+  }
+
+  .bottom-slider-modal.slideup {
+    animation: slide_modal_up 0.3s ease-in;
+    bottom: 0px;
+  }
+
+  .bottom-slider-modal.slidedown {
+    animation: slide_modal_down 0.3s ease-in;
+    bottom: -300px;
+  }
+
+  @keyframes slide_modal_up {
+    from {
+      bottom: -300px;
+    }
+
+    to {
+      bottom: 0px;
+    }
+  }
+
+  @keyframes slide_modal_down {
+    from {
+      bottom: 0px;
+    }
+
+    to {
+      bottom: -300px;
+    }
+  }
+
+  .bottom-slider-modal .modal-title {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid var(--main-body-color);
+    color: var(--main-color);
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .bottom-slider-modal .modal-body {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+  }
+  /***  BOTTOM SLIDER MODAL END ***/
+}
+
+/** ********************end of smaller screen********************** **/
+/********/
+/********/
+/********/
+/********/
+/********/
+/********/
+/********/
+/** *******************start of bigger screen************************/
+
+@media only screen and (min-width: 918px) {
+  .hide-on-desktop {
+    display: none !important;
+  }
+
+  /*** FIXED NOTIFICATION START ***/
+  .fixed-notification {
+    position: fixed;
+    top: 10%;
+    right: 30px;
+    /* width: 200px; */
+    padding: 10px 30px 10px 15px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    z-index: 2000;
+  }
+
+  .fixed-notification .check-icon {
+    font-size: 19px;
+    color: mediumseagreen;
+  }
+
+  .fixed-notification .message {
+    font-size: 15px;
+    color: var(--main-background-color);
+  }
+  /*** FIXED NOTIFICATION END **/
+
+  /*** BOTTOM SLIDER MODAL START ***/
+
+  .bottom-slider-modal-background {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1500;
+    display: none;
+    cursor: pointer;
+  }
+  .bottom-slider-modal {
+    position: fixed;
+    bottom: -300px;
+    width: 500px;
+    margin-left: 35%;
+    height: 300px;
+    background-color: white;
+    z-index: 1600;
+    border-radius: 5px 5px 0px 0px;
+    overflow-y: auto;
+  }
+
+  .bottom-slider-modal.slideup {
+    animation: slide_modal_up 0.3s ease-in;
+    top: 0px;
+  }
+
+  .bottom-slider-modal.slidedown {
+    animation: slide_modal_down 0.3s ease-in;
+    bottom: -300px;
+  }
+
+  @keyframes slide_modal_up {
+    from {
+      bottom: -300px;
+    }
+
+    to {
+      bottom: 0px;
+    }
+  }
+
+  @keyframes slide_modal_down {
+    from {
+      bottom: 0px;
+    }
+
+    to {
+      bottom: -300px;
+    }
+  }
+
+  .bottom-slider-modal .modal-title {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid var(--main-body-color);
+    color: var(--main-color);
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .bottom-slider-modal .modal-body {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+  }
+  /***  BOTTOM SLIDER MODAL END ***/
+}
+
+/** **************end of bigger screen************************ **/
+
+.centered-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
